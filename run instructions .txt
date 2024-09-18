@@ -1,0 +1,47 @@
+# run the test function adding in desired variables:
+	- The model name from the list below.
+	- Choose and add the data names from below for the relevant data set.
+	- If you want to do a multi prediction length test 
+		- If so add the lsit of the prediction lengths 
+	- else just add the signle prediction length
+	
+run_test_colab(model_name='Linear_PatchTST', data_name='ECL', multi_test=True, multi_pred=[96, 192, 336, 720])
+
+--model_name - * default DLinear options below
+
+--data_name - optional default ECL, options below
+
+--seq_len - optional default 96
+
+--target - optional default None- will give the one based on the dataset(last col in dataset)
+
+--single_pred - * default 96
+
+--multi_test - True/ False
+
+--multi_pred - optional default if True above [96, 192, 336, 720]
+
+Model_names: Informer : Model-1
+
+PatchTST : Model-2
+
+DLinear : Model-3
+
+NLinear : Model-4
+
+FEDformer : Model-5
+
+Linear_PatchTST : Model-6
+
+PatchFED : Model-7
+
+RevIN_PatchTST : Model-8
+
+RevIN_Linear : Model-9
+
+Data_names:
+
+ECL
+
+PJM
+
