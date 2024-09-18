@@ -14,7 +14,7 @@ The research contributes to the field by providing a deeper understanding of tra
 
 
 ## Main Results
-![image](https://user-images.githubusercontent.com/44238026/171345192-e7440898-4019-4051-86e0-681d1a28d630.png)
+![image](full_results.png)
 
 ###  Keywords
 |  Time series analysis:  |  The analysis of sequential data points, usually collected over time, to identify patterns, trends, and relationships in the data.  | 
